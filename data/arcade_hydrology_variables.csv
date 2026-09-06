@@ -1,0 +1,21 @@
+variable,units,description,source_variable
+catchment_id,-,Unique ARCADE catchment identifier,gid
+name,-,Catchment name where available,name
+continent,-,Continent containing the catchment,continent
+latitude,degrees,Latitude of catchment centre,center_lat
+longitude,degrees,Longitude of catchment centre,center_lon
+area_km2,km2,Catchment area,area_km2
+slope_deg,degrees,Mean catchment slope,slope
+elevation_m,m,Mean catchment elevation,zmean
+twi,-,Mean topographic wetness index,twi_mean
+permafrost_frac,0-1,Fraction of catchment underlain by permafrost,pf_frac
+active_layer_m,m,Mean active-layer thickness,alt_mean
+iwp_frac,0-1,Fraction of catchment associated with ice-wedge polygon terrain,iwp_frac
+surface_water_frac,0-1,Fraction of catchment covered by surface water,water_frac
+ice_frac,0-1,Fraction of catchment covered by ice,frac_ice
+maat_c,degC,Mean annual 2-m air temperature,t_2m_mean
+precip_mm_yr,mm yr-1,Mean annual precipitation,total_prec
+max_snowmelt_mm_day,mm d-1,Average annual maximum snowmelt rate,snowm_max
+runoff_mm_yr,mm yr-1,Mean annual ERA5-Land runoff,runoff_mea
+et_mm_yr,mm yr-1,"Mean annual ERA5-Land evapotranspiration, expressed as positive loss",etot_mean
+runoff_ratio,-,Mean annual runoff divided by mean annual precipitation,derived
